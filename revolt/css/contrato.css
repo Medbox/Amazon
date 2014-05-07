@@ -1,0 +1,159 @@
+html,body{
+	margin:0;
+	padding:0;
+	background-color:#2c3439;
+	/*background-image:url(img/bg1.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;*/
+	}
+.ctr_wrap{
+	width:900px;
+	position:absolute;
+	left:50%;
+	margin-left:-450px;
+	background-color:#f4f5f6;
+	/*border-left:1px solid #e3e3e3;
+	border-right:1px solid #e3e3e3;*/
+	}
+.ctr_header{
+	height:180px;
+	background-color:#3d484f;
+	}
+.ctr_header_logo{
+	text-align:center;
+	}
+.ctr_header_title{
+	text-align:center;
+	font-family:OpenSansLight;
+	font-size:1.5em;
+	color:#FFF;
+	}
+.ctr_header_subtitle{
+	text-align:center;
+	font-family:OpenSansLight;
+	font-size:0.8em;
+	color:#FFF;
+	}
+.ctr_body_p1{
+	margin-top:35px;
+	font-family:OpenSansLight;
+	font-size:1em;
+	color:#323232;
+	width:84%;
+	margin-left:8%;
+	text-align:justify;
+	}
+.ctr_body_p1 > span{
+	font-family:OpenSansSemibold;
+	}
+
+article{
+	margin-top:25px;
+	font-family:OpenSansLight;
+	font-size:1em;
+	color:#323232;
+	width:84%;
+	margin-left:8%;
+	text-align:justify;
+	}
+article > span{
+	font-family:OpenSansSemibold;
+	}
+
+.data{
+	background-color:#FC6;
+	}
+
+#btn_rechaza_contrato, #btn_acepta_contrato, #btn_descarga_contrato{
+	float:left;
+	font-family:OpenSansLight;
+	width:130px;
+	height:69px;
+	background-color:#a0a0a0;
+	margin:0px 0px 0px 10px;
+	background-image:url(../img/btn_icon_cancel.png);
+	background-repeat:no-repeat;
+	background-position:49px 10px;
+	cursor:pointer;
+	}
+#btn_acepta_contrato{
+	background-image:url(../img/btn_icon_accept.png);
+	background-color:#68c07a;
+	}
+
+#btn_rechaza_contrato:active{
+	background-color:#7d7d7d;
+	}
+#btn_acepta_contrato:active{
+	background-color:#509c5f;
+	}
+#btn_rechaza_contrato > span, #btn_acepta_contrato > span{
+	display:block;
+	text-align:center;
+	font-size:14px;
+	color:#FFF;
+	margin-top:41px;	
+	}	
+
+#btn_descarga_contrato{
+	width:270px;
+	background-image:url(../img/btn_icon_descarga.png);
+	background-color:#4591df;
+	background-position:118px 10px;
+	}
+#btn_descarga_contrato:active{
+	background-color:#3a7ec3;
+	}
+#btn_descarga_contrato > span{
+	display:block;
+	text-align:center;
+	font-size:14px;
+	color:#FFF;
+	margin-top:41px;	
+	}
+
+/*-----------------------------------------*/
+
+#btn_home{
+	float:left;
+	font-family:OpenSansLight;
+	width:200px;
+	height:69px;
+	margin:0px 0px 0px 10px;
+	background-image:url(../img/btn_icon_home.png);
+	background-repeat:no-repeat;
+	background-color:#68c07a;
+	background-position:85px 10px;
+	cursor:pointer;
+	}
+#btn_home:active{
+	background-color:#509c5f;
+	}
+#btn_home > span{
+	display:block;
+	text-align:center;
+	font-size:14px;
+	color:#FFF;
+	margin-top:41px;	
+	}
+
+
+/*------------------------------------------*/
+
+#anexo_RPP{
+	font-size:10px;
+	}
+
+.span_empty{
+	background-color:#FC0;
+	font-weight:normal !important;
+	}
+
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+/*******************     LOADER     *******************/
+#loader{
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	z-index:99;
+	background-image:url(../img/blackfog.png);
+	background-repeat:repeat;	
+	}
+#loader > .loader_msg{
+	height: 45px;
+	width: 160px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -22px;
+	margin-left: -80px;
+	background-color: #cfcfcf;
+	border: 2px solid #343434;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	}
+#loader > .loader_msg > .loader_img{
+	width: 16px;
+	height: 16px;
+	float: left;
+	margin: 15px 0px 0px 22px;
+	}
+#loader > .loader_msg > .loader_txt{
+	width: 90px;
+	height: 20px;
+	line-height: 20px;
+	float: left;
+	margin: 12px 0px 0px 15px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	}
+/******************************************************/

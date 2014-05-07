@@ -1,0 +1,108 @@
+/* 
+    Document   : cabecera
+    Created on : 08-09-2012, 11:33:32 PM
+    Author     : capavez88
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*****  HEADER  *****/
+header{
+    /*background: -webkit-linear-gradient(#33363B, #4D4E50);*/
+    background-color: #2D3033;
+    height: 47px;
+    z-index: 100;
+    width: 100%;
+    
+}
+header > .logo{
+    display:block;
+    height:50px;
+    width:170px;
+    background-image:url(../images/logo/logo_chica.png);
+    background-position:top;
+    background-repeat:no-repeat;
+    float:left;
+}
+header > .logo:hover{	background-position:bottom;	}
+
+/*header > .menu{
+    margin:0;
+    float:left;
+    margin-right:10px;
+    height:56px;
+    background-color:#F60;
+}
+header > .menu > li{
+    float: left;
+    position: relative;
+    list-style: none;
+    display: inline;
+}
+header > .menu > li > a{
+    display: block;
+    text-transform: uppercase;
+    height: 30px;
+    line-height: 30px;
+    width: auto;
+    padding: 0px 0px 0px 5px;
+    background-repeat: no-repeat;
+    float: left;
+    margin-top: 12px;
+    margin-left: 8px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-position: 5px 0px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    font-weight: bold;
+}
+header > .menu > li > a > span{	padding-left:26px; padding-right:8px;	}
+header > .menu > li > a:hover{ 
+    color:#FFF;
+    background-color:#282828;
+    background-position:5px -26px;
+}
+header > .menu > a{
+    display:block;
+    height:30px;
+    line-height:30px;
+    width:auto;
+    padding:0px 0px 0px 5px;28=3+20+5(left) / 7=3+5(right) 
+    background-color:#066;
+    background-repeat:no-repeat;
+    float:left;
+    margin-top:12px;
+    margin-left:8px;
+    text-decoration:none;
+    color:#9d9d9d;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    background-position:5px 0px;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+}
+header > .menu > a > span{	padding-left:26px; padding-right:8px;	}
+header > .menu > a:hover{ 
+    color:#FFF;
+    background-color:#282828;
+    background-position:5px -26px;
+}
+
+.mselected{ 
+    color:#FFF !important;
+    background-color:#282828 !important;
+    background-position:5px -26px !important;
+}
+
+.micon_inicio{			background-image:url(../images/micon_inicio.png);			}
+.micon_usuario{			background-image:url(../images/micon_usuario.png);			}
+.micon_grupo{			background-image:url(../images/micon_grupo.png);			}
+.micon_preferencias{	background-image:url(../images/micon_preferencias.png);	}
+.micon_salir{			background-image:url(../images/micon_salir.png);			}
+
+*/

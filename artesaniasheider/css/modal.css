@@ -1,0 +1,35 @@
+/*******************     LOADER     *******************/
+#overlay{
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	z-index:99;
+	background-image:url(../img/blackfog.png);
+	background-repeat:repeat;
+	display:none;
+	}
+#overlay > #modal{
+	position: absolute;
+	background-color:#FFF;
+	top: 50%;
+	left: 50%;
+	z-index:100;
+	}
+/******************************************************/
+
+.modal_hidden{
+	height: 500px;
+	width: 900px;
+	margin-top: -250px;
+	margin-left: -450px;
+	transition:all 200ms;
+	}
+.modal_active{
+	height: 600px;
+	width: 1000px;
+	margin-top: -300px;
+	margin-left: -500px;
+	transition:all 200ms;
+	}

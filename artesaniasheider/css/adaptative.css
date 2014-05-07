@@ -1,0 +1,23 @@
+@media all and (max-width: 1000px) {
+	/* propiedades CSS a aplicar en ventanas de 1000px o menos */
+	#wrap{
+		width:1000px !important;
+		margin-left:-500px !important;
+	}  
+}
+
+@media all and (min-width: 1001px) and (min-width: 1240px) {
+	/* propiedades CSS a aplicar en ventanas de 1240px hasta 1001px */
+	#wrap{
+		width:1240px !important;
+		margin-left:-620px !important;
+	}
+}
+
+@media all and (min-width: 1470px) {
+	/* propiedades CSS a aplicar en ventanas de 1470px o mas */
+	#wrap{
+		width:1470px !important;
+		margin-left:-735px !important;
+	}
+  

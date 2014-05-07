@@ -1,0 +1,77 @@
+html,body{
+	margin:0;
+	padding:0;
+	background-color:#405f72;
+	font-family:OpenSansLight !important;
+	}
+#login_box{
+	width:350px;
+	height:400px;
+	position:absolute;
+	left:50%;
+	top:45%;
+	margin-left:-175px;
+	margin-top:-200px;
+	background-color:#e8eaed;
+	}
+#login_header{
+	height:140px;
+	line-height:140px;/*53*/
+	text-align:center;
+	font-size:1em;
+	color:#888f9d;
+	background-color:#60a9d7;
+	}
+#login_body{
+	height:183px;
+	/*background-color:#F33;*/
+	}
+#login_logo{
+	float:left;
+	width:280px;
+	height:80px;
+	background-image:url(../img/logo_login.png);
+	margin-left:35px;
+	margin-top:32px;
+	}	
+#login_body > input{
+	float:left;
+	margin-left:35px;
+	width:260px;
+	height:50px;
+	padding-left:20px;
+	outline:none;
+	border:none;
+	background-color:#cdced5;
+	font-size:1.1em;
+	font-family:OpenSansLight !important;
+	text-transform:uppercase;
+	}
+#login_body > input:focus{
+	background-color:#ffffff;
+	}
+#login_user{
+	margin-top:37px;
+	}
+#login_pass{
+	margin-top:10px;
+	}
+#login_footer{
+	height:76px;
+	border-top:1px solid #c7c7c7;
+	}
+#login_submit{
+	width:160px;
+	height:50px;
+	line-height:50px;
+	color:#FFF;
+	background-color:#84c7a8;
+	float:left;
+	margin-left:95px;
+	margin-top:13px;
+	cursor:pointer;
+	text-align:center;
+	}
+#login_submit:active{
+	background-color:#4ea17b;
+	}

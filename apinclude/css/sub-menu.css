@@ -1,0 +1,141 @@
+/* 
+    Document   : sub-menu
+    Created on : 08-09-2012, 11:52:49 PM
+    Author     : capavez88
+    Description:
+        Purpose of the stylesheet follows.
+*/
+#sub-link{
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 56px;
+    text-align: left;
+    left: -40px;
+    min-height: 10px;
+    height:40px;
+    width:100%;
+}
+#sub-link > li{
+    float: left;
+    position: relative;
+    list-style: none;
+    display: inline;
+}
+#sub-link > li > a{
+    display:block;
+    height:30px;
+    line-height:30px;
+    width:auto;
+    padding:0px 0px 0px 5px;/*28=3+20+5(left) / 7=3+5(right) */
+    /*background-color:#066;*/
+    background-repeat:no-repeat;
+    float:left;
+    margin-top:5px;
+    margin-left:8px;
+    text-decoration:none;
+    color:#575757;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    background-position:5px 0px;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+}
+#sub-link > li > a > span{	padding-left:26px; padding-right:8px;	}
+#sub-link > li > a:hover{ 
+    color:#FFF;
+    background-color:#86a4d0;
+    background-position:5px -26px;
+}
+
+#sub-link-bar{
+    background: #514539;
+    min-height: 10px;
+    border-bottom: #645546 1px solid;
+}
+
+
+
+
+
+
+.submenu{
+    min-height: 10px;
+    height:40px;
+    width:100%;
+    border-bottom:1px solid #a8a8a5;
+    background-color:#e0e0e0;
+}
+
+.submenu > li{
+    float: left;
+    position: relative;
+    list-style: none;
+    display: inline;
+}
+.submenu > li > a{
+    display:block;
+    height:30px;
+    line-height:30px;
+    width:auto;
+    padding:0px 0px 0px 5px;28=3+20+5(left) / 7=3+5(right) 
+    background-color:#066;
+    background-repeat:no-repeat;
+    float:left;
+    margin-top:5px;
+    margin-left:8px;
+    text-decoration:none;
+    color:#575757;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    background-position:5px 0px;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+}
+.submenu > li > a > span{	padding-left:26px; padding-right:8px;	}
+.submenu > li > a:hover{ 
+    color:#FFF;
+    background-color:#86a4d0;
+    background-position:5px -26px;
+}
+.submenu > a{
+    display:block;
+    height:30px;
+    line-height:30px;
+    width:auto;
+    padding:0px 0px 0px 5px; 28=3+20+5(left) / 7=3+5(right) 
+    background-color:#066;
+    background-repeat:no-repeat;
+    float:left;
+    margin-top:5px;
+    margin-left:8px;
+    text-decoration:none;
+    color:#575757;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    background-position:5px 0px;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+}
+.submenu > a > span{	padding-left:26px; padding-right:8px;	}
+.submenu > a:hover{ 
+    color:#FFF;
+    background-color:#86a4d0;
+    background-position:5px -26px;
+}
+
+.sbmselected{ 
+    color:#FFF !important;
+    background-color:#86a4d0 !important;
+    background-position:5px -26px !important;
+}
+
+.sbicon_inicio{			background-image:url(../images/sbicon_inicio.png);			}
+.sbicon_usuario{		background-image:url(../images/sbicon_usuario.png);		}
+.sbicon_grupo{			background-image:url(../images/sbicon_grupo.png);			}
+.sbicon_preferencias{	background-image:url(../images/sbicon_preferencias.png);	}
+.sbicon_salir{			background-image:url(../images/sbicon_salir.png);			}
+

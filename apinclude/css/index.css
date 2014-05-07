@@ -1,0 +1,261 @@
+/* 
+    Document   : index
+    Created on : 08-09-2012, 11:30:53 PM
+    Author     : capavez88
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*****  RESET Y MAQUETA PRINCIPAL  *****/
+html,body{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:#eff0f2;
+    font-family:Arial, Helvetica, sans-serif !important;
+    background-repeat:repeat;
+}
+
+
+hr{
+    border:none;
+    border-top: 1px solid #CCCCCC;
+    height:1px;
+    margin:10px 0 10px 0;
+    clear:both;
+}
+.clear{		clear:both;		}
+.novisible{ display:none;	}
+
+.left_50{ float:left; width:50%; background-color:#FC6; min-height:100px; padding-bottom:1%;}
+.right_50{ float:right; width:50%; background-color:#6CC; min-height:100px; padding-bottom:1%;}
+.center_100{ clear:both; width:100%; background-color:#F99; min-height:100px; padding-bottom:1%;}
+
+
+.block_5{	height:5px;	width:100%;		}
+.block_10{	height:10px; width:100%;	}
+.block_15{	height:15px; width:100%;	}
+.block_20{	height:20px; width:100%;	}
+
+
+#wrapper{
+    margin-left: 10%;
+    margin-right: 5%;
+}
+.site-block{
+    margin-left: 14%;
+}
+footer {
+    padding: 20px 20px 100px;
+    text-align: right;
+    color: #F1F1F1;
+    background-color: #3A3D41;
+    position: relative;
+    margin-top: auto; 
+    clear:both;
+}
+.copyright {
+    text-align: center;
+    font-size: 10px;
+    color: #fff;
+}
+.copyright a {
+    color: #A31F1A;
+    text-decoration: none;
+}
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+
+
+.sbp_body_line > span {
+    height: 35px;
+    line-height: 38px;
+    display: block;
+    float: left;
+    font-size: 11px;
+    font-weight: bold;
+    color: #8C9093;
+    margin-right: 20px;
+}
+.sbp_body_line {
+    height: 35px;
+    padding-left: 8px;
+    padding-right: 8px;
+    float: left;
+}
+.derecha{
+    height: 35px;
+    padding-left: 8px;
+    padding-right: 8px;
+    float: right;
+}
+
+.sbp_body_line > input {
+    float: left;
+    font-size: 1.3em;
+    color: #333;
+    outline: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid #CACACA;
+}
+
+.sbp_body_separator {
+    clear: both;
+    height: 3px;
+    border-bottom: 1px solid #DFE3E6;
+    margin-bottom: 3px;
+}
+
+.input_145{
+    width: 145px;
+}
+
+
+
+/*alertMessage*/
+#alertMessage {
+    font-size:16px;
+    font-weight:bold;
+    padding:15px 25px 15px 45px;
+    position:fixed;
+    text-align:center;
+    width:auto;
+    z-index:100001;
+    cursor:pointer;
+    font-family:'Myriad Pro', Arial, Helvetica, sans-serif;
+    background-color:#C2E3F0;
+    color:#34667A;
+    text-shadow:1px 1px 1px #C8EBFB;
+    display:none;
+    right: -20px;
+    text-transform: uppercase;
+    bottom: 25px;
+    opacity:0;
+    filter:alpha(opacity=0);
+    background-image: url(../images/info.png);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+.alertMessage {
+    font-size:16px;
+    font-weight:bold;
+    padding:15px 25px 15px 45px;
+    width:auto;
+    cursor:pointer;
+    font-family:'Myriad Pro', Arial, Helvetica, sans-serif;
+    background-color:#C2E3F0;
+    color:#34667A;
+    text-shadow:1px 1px 1px #C8EBFB;
+    text-transform: uppercase;
+    margin-bottom:15px;
+    background-image: url(../images/info.png);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+#alertMessage span, .alertMessage span {
+    border-left: 1px #488eaa solid;
+    border-right: 1px #efefef solid;
+    margin-right:10px;
+    padding:5px 0px;
+}
+#alertMessage.error, .alertMessage.error {
+    background-color:#fc4a48;
+    color:#5A0000;
+    text-shadow:1px 1px 1px #E64040;
+    background-image: url(../images/error.png);
+    border: 1px #a93a25 solid;
+}
+#alertMessage.error span, .alertMessage.error span {
+    border-left: 1px #7a0202 solid;
+    border-right: 1px #f08c8a solid;
+    margin-right:10px;
+    padding:5px 0px;
+}
+#alertMessage.success, .alertMessage.success {
+    background-color:#9bc652;
+    color:#324e03;
+    text-shadow:1px 1px 1px #5c9201;
+    background-image: url(../images/checkmark2.png);
+    border: 1px solid #69a44d;
+}
+.alertMessage.success span {
+    border-left: 1px #688901 solid;
+    border-right: 1px #d0e4a7 solid;
+    margin-right:10px;
+    padding:5px 0px;
+}
+#alertMessage.warning, .alertMessage.warning {
+    background-color:#fcdb72;
+    color:#987402;
+    text-shadow:1px 1px 1px #e7b104;
+    background-image: url(../images/help.png);
+}
+#alertMessage.warning span, .alertMessage.warning span {
+    border-left: 1px #987402 solid;
+    border-right: 1px #fff0c2 solid;
+    margin-right:10px;
+    padding:5px 0px;
+}
+
+@media only screen and (max-width: 1024px) {
+    #content {
+        margin-left: 0px;
+    }
+    #wrapper {
+        margin-top: 1%;
+        padding-left: 0%;
+        width: 100%;
+        background: #F8F8F8;
+        border-bottom: 1px solid #E4E4DF;
+    }
+}
+@media only screen and (max-width: 800px) {
+    #content {
+        margin-left: 0px;
+    }
+    #wrapper {
+        margin-top: 1%;
+        padding-left: 0%;
+        width: 100%;
+        background: #F8F8F8;
+        border-bottom: 1px solid #E4E4DF;
+    }
+    .section_body > a > .sb_link > .spn_text1 {
+        display: block;
+        font-weight: bold;
+        font-size: 1em;
+        min-height: 20px;
+    }
+    .section_body > a > .sb_link > .spn_text2 {
+        display: block;
+        font-size: 0.9em;
+        color: #72727E;
+    }
+}
+@media only screen and (max-width: 480px) {
+    #wrapper {
+        margin-top: 90%;
+        padding-left: 0%;
+        width: 100%;
+        background: #F8F8F8;
+        border-bottom: 1px solid #E4E4DF;
+    }
+}
+@media only screen and (max-width: 320px) {
+#wrapper {
+        margin-top: 125%;
+        padding-left: 0%;
+        width: 100%;
+        background: #F8F8F8;
+        border-bottom: 1px solid #E4E4DF;
+    }
+}

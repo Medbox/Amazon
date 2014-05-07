@@ -1,0 +1,19 @@
+html,body{
+    font-family:"OpenSans";
+    font-weight:300;
+    background-color:#ededeb;
+    }
+header{
+    position:absolute;
+    height:60px;
+    background-color:#4d5054;
+    left:250px;
+    right:0px;    
+    }
+aside{
+    position:absolute;
+    width:250px;
+    bottom:0px;
+    top:0px;
+    background-color:#464646;    
+    }

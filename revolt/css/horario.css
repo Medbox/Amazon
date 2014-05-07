@@ -1,0 +1,300 @@
+
+/*------------------------------*/
+/*		 MENU_HORARIO.PHP		*/
+/*------------------------------*/
+.hr_header{
+	height:80px;
+	background-color:#434754;
+	color:#FFF;
+	}
+.hr_body{
+	position:absolute;
+	width:100%;
+	top:80px;
+	bottom:0px;
+	background-color:#5c606b;
+	color:#FFF;
+	overflow-y:auto;
+	}
+
+/*-------------------------------------------------------------*/
+
+/*-------------------------------------------------------------*/
+
+.programacion_body_left{
+	float:left;
+	width:99%;
+	/*background-color:#fff;*/
+	min-height:100px;
+	}
+.programacion_body_right{
+	float:right;
+	width:19%;
+	margin-right:1%;
+	margin-top:10px;
+	margin-bottom:10px;
+	background-color:#ffffff;
+	min-height:350px;
+	}
+
+
+
+/*-------------------------------------------------------------*/
+/*	HEADER	*/
+/*-------------------------------------------------------------*/
+
+.item_week,.item_week_selected{
+	height:48px;
+	line-height:48px;
+	font-size:14px;
+	text-align:center;
+	color:#FFF;
+	width:auto;
+	border:1px solid #383b47;
+	background-color:#525665;
+	float:left;
+	padding-left:15px;
+	padding-right:15px;
+	margin:15px 0px 0px 3px;
+	cursor:pointer;
+	}
+.item_week:active{
+	background-color:#474b58;
+	}
+.item_week_selected{
+	border:1px solid #4e9bea;/*84c7a8*/
+	background-color:#4e9bea;
+	}
+
+
+/*-------------------------------------------------------------*/
+/*	programacion_body_right : pbr	*/
+/*-------------------------------------------------------------*/
+
+.pbr_header{
+	height:70px;
+	background-color:#949494;
+	}
+.pbr_header_text{
+	float:left;
+	height:40px;
+	width:37%;
+	margin:6% 0px 0px 8%;
+	/*background-color:#09C;*/
+	color:#FFF;
+	font-size:15px;
+	}
+.pbr_header_horas{
+	float:left;
+	text-align:center;
+	height:50px;
+	width:47%;
+	margin:4% 0px 0px 0%;
+	/*background-color:#F99;*/
+	color:#FFF;
+	font-family:OpenSansExtrabold;
+	font-size:40px;
+	}
+.pbr_header_horas > span{
+	font-family:OpenSansLight;
+	font-size:18px;
+	}
+
+.pbr_item{
+	float:left;
+	margin-top:5px;
+	margin-left:5%;
+	height:50px;
+	width:90%;
+	background-color:#8cb0c7;
+	color:#FFF;
+	}
+.pbr_item_text{
+	font-size: 14px;
+	float:left;
+	width:58%;
+	text-align:left;
+	margin-top:3%;
+	margin-left:5%;
+	background-color:#8cb0c7;
+	}
+.pbr_item_value{
+	float:right;
+	font-family:OpenSansExtrabold;
+	font-size: 30px;
+	text-align:center;
+	height:50px;
+	line-height:50px;
+	width:37%;
+	background-color:#7897ab;
+	}
+
+.pbr_item_decimal{
+	font-family:OpenSansLight;
+	font-size:16px;
+	}
+
+/*-------------------------------------------------------------*/
+/*	programacion_body_left : pbl	*/
+/*-------------------------------------------------------------*/
+
+.pbl_columna_horas{
+	float:left;
+	width:6%;
+	/*background-color:#999;*/
+	min-height:400px;
+	}
+.pbl_columna_bloque{
+	float:left;
+	width:4%;
+	background-color:#999;
+	min-height:400px;
+	}
+.pbl_columna_dia{
+	float:left;
+	width:18%;
+	/*background-color:#6C3;*/
+	min-height:400px;
+	position:relative;
+	}
+.pbl_columna_title{
+	height:30px;
+	line-height:30px;
+	background-color:#949494;
+	text-align:center;
+	color:#FFF;
+	font-size:14px;
+	}
+
+
+.pbl_columna_celda1,.pbl_columna_celda2{
+	display:block;
+	text-decoration:none;
+	color:#FFF;
+	background-color:#505564;
+	height:35px;/*36*/
+	line-height:35px;
+	text-align:center;
+	font-size:11px;
+	margin-bottom:1px;
+	}
+.pbl_columna_celda1:last-child,.pbl_columna_celda2:last-child{
+	margin-bottom:none;
+	}
+.pbl_columna_celda2{
+	background-color:#787d8a;
+	text-align:left;
+	}
+.pbl_columna_celda2 > span{
+	float:left;
+	margin-left:6px;
+	font-size:14px;
+	}
+
+.pbl_columna_celda3{
+	display:block;
+	text-decoration:none;
+	color:#FFF;
+	background-color:#787d8a;
+	height:71px;/*36*/
+	line-height:35px;
+	text-align:center;
+	font-size:11px;
+	margin-bottom:1px;
+	}
+.pbl_columna_celda3 > span{
+	float:left;
+	margin-left:6px;
+	font-size:14px;
+	}
+
+/*----------   COLUMNA DE BLOQUES   ----------*/
+.pbl_columna_blq1,.pbl_columna_blq2{
+	display:block;
+	text-decoration:none;
+	color:#FFF;
+	background-color:#505564;
+	height:35px;/*36*/
+	line-height:35px;
+	text-align:center;
+	font-size:13px;
+	margin-bottom:1px;
+	}
+.pbl_columna_blq2{
+	height:71px;/*36*/
+	}
+
+
+/*.pbl_columna_bloque{
+	position: absolute;
+	width: 100%;
+	height:50px;
+	background-color:#693;
+	border-left:1px solid #FFF;
+	font-size:11px;
+	}*/
+
+
+
+/*--------------------------------------------------------------*/
+/*						TIPOS DE HORARIO						*/
+/*--------------------------------------------------------------*/
+
+.DIURNO{	background-color:#8064a2;	}
+.TARDE{		background-color:#f79646;	}
+.PRIME{		background-color:#00b050;	}
+.NOCHE{		background-color:#c0504d;	}
+.LATE{		background-color:#1a809f;	}
+
+
+/*.DISPONIBLE{	background-color:#CCC;	}*/
+.REVOLT{		background-color:#ed9391;	}
+
+.leyenda{
+	float:right;
+	margin:14px 30px 0px 0px;
+	}
+
+/*-------------------------------------------------------------*/
+
+.box_tipo{
+	float:left;
+	display:block;
+	text-decoration:none;
+	margin-left:10px;
+	margin-top:3px;
+	width:29px;
+	text-align:center;
+	height:29px;
+	line-height:29px;
+	background-color:#6d727e;
+	}
+.box_tipo_L{
+	background-image:url(../img/icon_mini_signal.png);
+	background-repeat:no-repeat;
+	background-position:7px 8px;
+	}
+.box_tipo_G{
+	background-image:url(../img/icon_mini_camera.png);
+	background-repeat:no-repeat;
+	background-position:7px 8px;
+	}
+.box_disponible,.box_ocupado{
+	float:left;
+	font-size:12px;
+	margin-left:2px;
+	margin-top:3px;
+	width:29px;
+	text-align:center;
+	height:29px;
+	line-height:29px;
+	background-color:#6d727e;
+	background-image:url(../img/alert_green.png);
+	background-repeat:no-repeat;
+	background-position:3px 3px;
+	}
+.box_ocupado{
+	background-image:url(../img/alert_red.png);
+	background-color:#6d727e;
+	}
+

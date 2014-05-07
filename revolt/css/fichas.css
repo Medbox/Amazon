@@ -1,0 +1,33 @@
+
+/*------------------------------*/
+/*		 MENU_FICHAS.PHP		*/
+/*------------------------------*/
+#fi_left{
+	position:absolute;
+	/*width:168px;*/
+	width:30%;
+	top:0px;
+	left:0px;
+	bottom:0px;
+	background-color:#434754;
+	}
+#fi_right{
+	position:absolute;
+	top:0px;
+	/*left:168px;*/
+	left:30%;
+	right:0px;
+	bottom:0px;
+	background-color:5c606b;
+	}
+
+/********************************/
+
+#fi_left > table{
+	border-collapse:collapse;
+	}
+#fi_left > table tr td{
+	font-size:14px;
+	text-align:left;
+	color:#FFF;
+	}

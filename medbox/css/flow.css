@@ -1,0 +1,276 @@
+/* CSS Document */
+html,body{
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	}
+.novisible{
+	display:none;
+	}
+
+select{
+	outline:none;
+	}
+	
+.seleccionar_medico{
+	background-color:#4c4c4c;
+	height:35px;
+	line-height:35px;
+	color:#FFF;
+	}
+/*.seleccionar_medico > label, .seleccionar_medico > select, .seleccionar_medico > button{
+	float:left;
+	}*/
+
+.div_medico{
+	height:60px;
+	background-color:#abafb1;
+	}
+.nombre_medico{
+	float:left;
+	/*background-color:#9C0;*/
+	font-size:25px;
+	color:#52565b;
+	margin:8px 0px 0px 10px;
+	}
+.datos_medico{
+	clear:left;
+	margin-left:10px;
+	width:auto;
+	font-size:13px;
+	color:#52565b;
+	}
+.datos_medico > span{
+	margin-right:30px;
+	}
+
+.div_contratos{
+	background-color:#f3d5b0;
+	padding:10px;
+	}
+.div_nuevo_contrato{
+	padding:5px;
+	background-color:#f8f0e6;
+	}
+.div_lista_contratos{
+	margin-top:5px;
+	padding:5px;
+	background-color:#f7f7f7;
+	}
+
+.div_configuracion{
+	background-color:#699;
+	height:200px;
+	}
+
+/****************************************************************************************/
+
+
+.div_config{
+	float:left;
+	width:380px;
+	height:400px;
+	background-color:#dadadc;
+	padding:10px;
+	}
+.dc_title{
+	background-color:#4b4f55;
+	font-size:14px;
+	height:23px;
+	line-height:23px;
+	font-weight:bold;
+	color:#d1d1d1;
+	}
+.dc_line{
+	font-size:14px;
+	height:30px;
+	line-height:30px;
+	color:#666;
+	}
+.dc_line_title{
+	float:left;
+	width:300px;
+	background-color:#e7e8e9;
+	}
+.dc_line_item{
+	float:left;
+	width:80px;
+	background-color:#ffffff;
+	}
+.dc_line_item_span_number{
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	display:block;
+	}
+.dc_line_item_span_total{
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	display:block;
+	background-color:#ee6852;
+	color:#FFF;
+	}
+.dc_line_item_select{
+	width: 90%;
+	margin-left: 5%;
+	font-size: 16px;
+	}
+.dc_line_item_input{
+	width: 85%;
+	margin-left: 5%;
+	font-size: 16px;
+	text-align:center;
+	}
+
+/******************************************************************/
+
+.contrata_box{
+	float:left;
+	min-width:200px;
+	height:100px;
+	background-color:#f1e6d8;
+	padding:5px;
+	margin-right:10px;
+	}
+.contrata_title{
+	height:25px;
+	background-color:#f0ddc6;
+	}
+
+
+
+#hp_total_horas_programables,#dfe_total_dias{
+	background-color:#ee6852;
+	border:1px solid #ee6852;
+	color:#FFF;
+	font-weight:bold;
+	text-align:center;
+	width: 60px;
+	font-size:20px;
+	font-size: 18px;
+	padding: 0px;
+	}
+
+
+/******************************************************************/
+
+
+
+.box_contrato{
+	float:left;
+	margin-left:10px;
+	font-size:12px;
+	min-width:300px;
+	background-color:#FFFFFF;
+	border:1px solid #CCC;
+	}
+
+
+
+
+
+/****************************************************************************************/
+
+
+.div_dump{
+	float:left;
+	width:380px;
+	height:400px;
+	background-color:#F99;
+	padding:10px;
+	}
+
+
+
+/****************************************************************************************/
+
+
+
+.div_bloques{
+	float:left;
+	width:800px;
+	height:750px;
+	background-color:#dce5dc;
+	margin-left:5px;
+	padding:5px;
+	}
+
+/*.div_bloque{
+	width:600px;
+	height:400px;
+	float:left;
+	background-color:#c8d4c8;
+	padding:10px;
+	margin-left:10px;
+	}*/
+.db_section{
+	height:20px;
+	line-height:20px;
+	font-size:14px;
+	font-weight:bold;
+	background-color:#596859;
+	color:#ffffff;
+	margin-bottom:10px;
+	}
+.db_header{
+	height:20px;
+	line-height:20px;
+	font-size:14px;
+	background-color:#718371;
+	color:#ffffff;
+	}
+
+
+
+.div_horario{
+	min-height:300px;
+	background-color:#fffce8;
+	}
+.dh_lunes,.dh_martes,.dh_miercoles,.dh_jueves,.dh_viernes{
+	float:left;
+	width:20%;
+	min-height:300px;
+	}
+.dh_lunes{		background-color:#fbb3e3;	}
+.dh_martes{		background-color:#d3b8fd;	}
+.dh_miercoles{	background-color:#a0d9ff;	}
+.dh_jueves{		background-color:#aaeed6;	}
+.dh_viernes{	background-color:#c4e3a3;	}
+
+.dh_title{
+	height:30px;
+	line-height:30px;
+	font-weight:bold;
+	font-size:16px;
+	color:#666;
+	text-align:center;
+	}
+
+.area_bloque{
+	width:98%;
+	margin:5px auto 0px auto;
+	background-color:#f1f2f1;
+	border:1px solid #c2c8c2;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

@@ -1,0 +1,24 @@
+.tabla_cosecha thead tr{
+    background-color: #E4E1DE;
+}
+.tabla_cosecha table td, table th{
+    border: 1px solid;
+    padding: 4px 2px;
+    text-align: center;
+    border-color: #DDD #E7E7E7 #DDD #E7E7E7;
+}
+
+.tabla_cosecha table th {
+    font-weight: 500;
+    text-shadow: 0 -1px 0 white;
+}
+.tabla_cosecha table{
+    width: 99%;
+    border-collapse: collapse;
+    margin-bottom: 2%;
+    color: #404040;
+}
+
+.tabla_cosecha tbody td{
+    font-size: 12px;
+}

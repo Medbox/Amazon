@@ -1,0 +1,89 @@
+.logo{
+	text-align:center;
+	}
+.title{
+	font-size:19pt;
+	text-align:center;
+	}
+.subtitle{
+	font-size:11pt;
+	text-align:center;
+	}	
+.title2{
+	margin-top:5px;
+	font-size:16pt;
+	text-align:center;
+	}	
+
+section{
+	font-family:opensans;
+	text-align:justify;
+	font-size:12pt;
+	line-height:25px;
+	}
+span{
+	font-weight:bold;
+	}
+article{
+	text-align:justify;
+	font-size:12pt;
+	line-height:25px;
+	}
+footer{
+	height:auto;/*80 only firma*/
+	/*background-color:#F36;*/
+	}
+
+.firma_left{
+	width:25%;
+	height:110px;
+	/*background-color:#06F;*/
+	float:left;
+	margin-left:5%;
+	}
+.firma_right{
+	width:35%;
+	height:110px;
+	/*background-color:#06F;*/
+	float:right;
+	margin-right:5%;
+	}
+.firma_imagen{
+	height:80px;
+	text-align:center;
+	/*background-color:#093;*/
+	}
+.firma_person{
+	font-size:12px;
+	text-align:center;
+	}
+.firma_rut{
+	font-size:11px;
+	text-align:center;
+	}
+	
+/*==============================================*/
+
+.anexo_header{
+	font-size:11pt;
+	line-height:23px;
+	}
+.anexo_article{
+	font-size:11pt;
+	line-height:23px;
+	}
+
+/*==============================================*/
+
+.span_empty{
+	background-color:#FC0;
+	}
+
+
+
+
+
+
+
+	
+	
