@@ -1,4 +1,4 @@
 <?php
 	echo "hoilaaa";
-	echo "modificado por mi"
+	echo "modificado por mi";
 ?>
