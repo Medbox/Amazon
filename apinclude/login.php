@@ -3,7 +3,7 @@
     <head>
 
         <meta charset="utf-8" />
-        <title>xxSistema de Gestión, Control y Trazabilidad Apicola</title>
+        <title>Sistema de Gestión, Control y Trazabilidad Apicola</title>
         <!--[if lt IE 9]>
           <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
